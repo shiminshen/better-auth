@@ -1,5 +1,14 @@
 # auth
 
+## 1.6.12
+
+### Patch Changes
+
+- Updated dependencies [[`7a12072`](https://github.com/better-auth/better-auth/commit/7a120724c5c3fdd9d60d59169b32d693e9497fec), [`6b44606`](https://github.com/better-auth/better-auth/commit/6b44606b7d596527b59176b7a0cd06ea66df9031)]:
+  - better-auth@1.6.12
+  - @better-auth/core@1.6.12
+  - @better-auth/telemetry@1.6.12
+
 ## 1.6.11
 
 ### Patch Changes

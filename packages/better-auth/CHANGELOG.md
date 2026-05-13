@@ -1,5 +1,22 @@
 # better-auth
 
+## 1.6.12
+
+### Patch Changes
+
+- [#9596](https://github.com/better-auth/better-auth/pull/9596) [`7a12072`](https://github.com/better-auth/better-auth/commit/7a120724c5c3fdd9d60d59169b32d693e9497fec) Thanks [@bytaesu](https://github.com/bytaesu)! - Email OTP sign-in no longer fails with a missing-captcha-token error under the default captcha settings. If you intentionally want captcha on email OTP sign-in, add `/sign-in/email-otp` to `captcha({ endpoints })`.
+
+- [#9464](https://github.com/better-auth/better-auth/pull/9464) [`6b44606`](https://github.com/better-auth/better-auth/commit/6b44606b7d596527b59176b7a0cd06ea66df9031) Thanks [@ping-maxwell](https://github.com/ping-maxwell)! - fix(username): validate username on admin `createUser` endpoint
+
+- Updated dependencies []:
+  - @better-auth/core@1.6.12
+  - @better-auth/drizzle-adapter@1.6.12
+  - @better-auth/kysely-adapter@1.6.12
+  - @better-auth/memory-adapter@1.6.12
+  - @better-auth/mongo-adapter@1.6.12
+  - @better-auth/prisma-adapter@1.6.12
+  - @better-auth/telemetry@1.6.12
+
 ## 1.6.11
 
 ### Patch Changes
